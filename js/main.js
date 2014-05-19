@@ -12,9 +12,38 @@ WebFontConfig = {
     s.parentNode.insertBefore(wf, s);
 })();
 
+$(window).load(function(){
 
+    if($("#Content.home").length>0){
+        var height1=0;
+        var height2=0;
+        $("#Content.home>.row").each(function(){
+
+            $(this).find('section').each(function(){
+                height1 = $(this).outerHeight();
+                if(height1>=height2)height2=height1;
+                console.log(height2);
+            });
+            $(this).find('section').css('height',height2);
+            height1=0;
+            height2=0;
+            console.log("--");
+        });
+    }
+});
 
 $(document).ready(function(){
+
+    $("#Agenda .slider").owlCarousel({
+        items : 2, //2 items above 1000px browser width
+        itemsDesktop : [1000,2], //5 items between 1000px and 901px
+        itemsDesktopSmall : [900,2], // betweem 900px and 601px
+        itemsTablet: [600,2], //2 items between 600 and 0
+        itemsMobile : false, // itemsMobile disabled - inherit from itemsTablet option
+        pagination: false,
+        navigation:true
+
+    });
 
     //DatePicker
     $('.datepicker').datepicker({
@@ -45,6 +74,9 @@ $(document).ready(function(){
         }
     });
 
+    setTimeout(function(){
+
+    },1000);
 });
 
 
