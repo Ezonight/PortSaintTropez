@@ -10,14 +10,14 @@
               <option name="cssDirectories">
                 <list>
                   <CssDirectory>
-                    <option name="path" value="C:\wamp\www\PortSaintTropezGit\css" />
+                    <option name="path" value="C:\Users\jsorret\PhpstormProjects\PortSaintTropez\css" />
                   </CssDirectory>
                 </list>
               </option>
               <option name="excludePattern" value="styles.css" />
               <option name="id" value="0" />
               <option name="includePattern" value="styles.less" />
-              <option name="lessDirPath" value="C:\wamp\www\PortSaintTropezGit\css" />
+              <option name="lessDirPath" value="C:\Users\jsorret\PhpstormProjects\PortSaintTropez\css" />
               <option name="name" value="PortSaintTropez" />
             </LessProfile>
           </value>
