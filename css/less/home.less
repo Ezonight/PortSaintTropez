@@ -1,0 +1,162 @@
+.bg-blue{
+  background:@blue;
+  color:white;
+}
+.bg-white{
+  background:white;
+  color:@gray1;
+}
+
+.home{
+  section{
+    padding-bottom:20px;
+    padding-top:20px;
+  }
+  h2{
+    .police-size(19);
+    .quicksand(400);
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    margin-top:0px;
+  }
+  p{
+    .police-size(11);
+    .muli();
+  }
+  #Magazine{
+
+  }
+
+  #Welcome {
+    position: relative;
+    text-align: center;
+    padding-bottom:85px;
+    h2,p{
+      text-align:center;
+    }
+    p{
+
+    }
+    .video{
+      position: absolute;
+      bottom:15px;
+      >a{
+        display: inline-block;
+        vertical-align: middle;
+        .police-size(19);
+        text-transform: uppercase;
+        .quicksand();
+        color:white;
+        transition: all 0.3s;
+        padding-right:5px;
+        border-radius: 2px;
+        &:before{
+          vertical-align: middle;
+          content:" ";
+          margin-right:15px;
+          border-radius: 2px;
+          box-sizing: content-box;
+          .ico-video();
+          height: 50px;
+          width: 50px;
+          background: url(../imgs/sprites.png) -153px -71px no-repeat;
+          display:inline-block;
+          border:1px solid @gray2;
+        }
+        &:hover{
+          background: rgba(255,255,255,0.2);
+          text-decoration: none;
+        }
+      }
+    }
+  }
+  #Contact{
+    ul{
+      margin:0px;
+      padding: 0px;
+      list-style: none;
+      text-align: center;
+      li{
+        margin-bottom:15px;
+      }
+    }
+    a{
+      color:white;
+      .muli();
+      .police-size(15);
+      text-transform: lowercase;
+      &:before{
+        border-radius: 50%;
+        content: " ";
+        margin:0 auto;
+        box-shadow: 1px 1px 5px rgba(0,0,0,0.75);
+      }
+      &:hover{
+        text-decoration:none;
+      }
+      &.mail{
+        &:before{
+          .ico-bouee();
+        }
+      }
+      &.tel{
+        &:before{
+          .ico-ancre();
+        }
+      }
+      &.adresse{
+        &:before{
+          .ico-bateau();
+        }
+      }
+      &.faq{
+        &:before{
+          .ico-noeud();
+        }
+      }
+    }
+  }
+
+  #Agenda{
+    position: relative;
+    a{
+      margin:0px 10px;
+      color:white;
+      display: block;
+      img{
+        width: 100%;
+      }
+      h3{
+        .muli();
+        .police-size(13);
+      }
+      time{
+        .muli();
+        .police-size(11);
+      }
+    }
+    .owl-controls{
+      height:0px;
+      position: absolute;
+      width: 100%;
+      top:50%;
+      margin:0px;
+      .owl-next{
+        margin: 0px;
+        position: absolute;
+        right:-10px;
+        top:-20px;
+        text-indent:-9999px;
+        .ico-arrow-right();
+      }
+      .owl-prev{
+        position: absolute;
+        left:-10px;
+        margin: 0px;
+        top:-20px;
+        text-indent:-9999px;
+        .ico-arrow-left();
+      }
+    }
+  }
+}

@@ -1,0 +1,36 @@
+.police-size(@size){
+  @sizePx : ~"@{size}px";
+  @size2 : @size/10;
+  @sizeRem : ~"@{size2}rem";
+  font-size: @sizePx;
+  font-size: @sizeRem;
+  opacity:0.999;
+  -webkit-transform: rotate(-0.0000000001deg);
+  -webkit-font-smoothing: subpixel-antialiased;
+}
+
+.police (@type,@weight:normal){
+  font-family:@type,Helvetica,Arial;
+  font-weight:@weight;
+}
+
+.quicksand (@weight:normal){
+  .police("Quicksand",@weight);
+}
+.muli (@weight:normal){
+  .police("Muli",@weight);
+}
+
+.transparency (@colour, @alpha) {
+  @alphaColour: hsla(hue(@colour), saturation(@colour), lightness(@colour), @alpha);
+  @ieAlphaColour: argb(@alphaColour);
+
+  background-color: @colour; // Fallback for older browsers
+  background-color: @alphaColour;
+
+  // IE hacks
+  zoom: 1; // hasLayout
+  background-color: transparent\9;
+  -ms-filter:  "progid:DXImageTransform.Microsoft.gradient(startColorstr=@{ieAlphaColour}, endColorstr=@{ieAlphaColour})"; // IE 8+
+  filter: ~"progid:DXImageTransform.Microsoft.gradient(startColorstr=@{ieAlphaColour}, endColorstr=@{ieAlphaColour})"; // IE 6 & 7
+}

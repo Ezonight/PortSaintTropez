@@ -13,7 +13,7 @@ WebFontConfig = {
 })();
 
 $(window).load(function(){
-
+if($(window).width()>767){
     if($("#Content.home").length>0){
         var height1=0;
         var height2=0;
@@ -30,6 +30,7 @@ $(window).load(function(){
             console.log("--");
         });
     }
+}
 });
 
 $(document).ready(function(){

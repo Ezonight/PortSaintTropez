@@ -1,0 +1,73 @@
+body{
+  background:@yellow;
+}
+
+
+#Background{
+ position: absolute;
+  width:100%;
+  height:290px;
+
+  .item{
+    height:290px;
+    background-size: cover;
+    background-position: center;
+  }
+}
+
+#Header{
+  position: relative;
+  height:290px;
+  margin-bottom:15px;
+  #LogoStTropez{
+    .logo-stTropez();
+    margin-left:15px;
+    margin-top:15px;
+    border-radius:3px;
+    box-shadow: 3px 3px 5px rgba(0,0,0,0.75);
+  }
+
+  #LogoCapitainerie{
+    float: right;
+    margin-right:15px;
+    margin-top:15px;
+    .logo-capitainerie();
+
+  }
+
+  #Languages{
+    ul{
+      display:inline-block;
+      margin:15px 0px 0px 0px;
+      padding:0px;
+      list-style: none;
+      li{
+        display:inline-block;
+        &.fr{
+
+        }
+        &.en{
+
+        }
+        &.it{
+
+        }
+        &.ru{
+
+        }
+      }
+    }
+  }
+
+  h1{
+    color:white;
+    text-align: center;
+    .quicksand();
+    .police-size(50);
+    text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5);
+    adress{
+      display: block;
+      .police-size(14);
+    }
+  }
+}
