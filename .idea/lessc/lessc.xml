@@ -10,14 +10,14 @@
               <option name="cssDirectories">
                 <list>
                   <CssDirectory>
-                    <option name="path" value="C:\wamp\www\PortSaintTropez\css" />
+                    <option name="path" value="C:\wamp\www\votreChateauDeFamille\css" />
                   </CssDirectory>
                 </list>
               </option>
               <option name="excludePattern" value="styles.css" />
               <option name="id" value="0" />
               <option name="includePattern" value="styles.less" />
-              <option name="lessDirPath" value="C:\wamp\www\PortSaintTropez\css" />
+              <option name="lessDirPath" value="C:\wamp\www\votreChateauDeFamille\css" />
               <option name="name" value="PortSaintTropez" />
             </LessProfile>
           </value>
