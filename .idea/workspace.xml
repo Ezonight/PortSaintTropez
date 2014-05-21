@@ -3,7 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="85e747f1-8b2d-4329-9d6f-0875d1d43f2a" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/contenu.html" afterPath="$PROJECT_DIR$/contenu.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/lessc/lessc.xml" afterPath="$PROJECT_DIR$/.idea/lessc/lessc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/less/home.less" afterPath="$PROJECT_DIR$/css/less/home.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/less/module.less" afterPath="$PROJECT_DIR$/css/less/module.less" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/styles.less" afterPath="$PROJECT_DIR$/css/styles.less" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
@@ -29,10 +30,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="styles.less" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="styles.less" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/styles.less">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="15" selection-start="511" selection-end="511" vertical-scroll-proportion="0.35091743" vertical-offset="0" max-vertical-offset="872">
+            <state line="22" column="15" selection-start="559" selection-end="559" vertical-scroll-proportion="-7.3333335" vertical-offset="0" max-vertical-offset="527">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="colors.less" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/less/colors.less">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="14" selection-start="14" selection-end="14" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="187">
               <folding />
             </state>
           </provider>
@@ -41,8 +51,19 @@
       <file leaf-file-name="content.less" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/less/content.less">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="32" column="22" selection-start="426" selection-end="426" vertical-scroll-proportion="-10.666667" vertical-offset="0" max-vertical-offset="765">
+            <state line="28" column="22" selection-start="365" selection-end="365" vertical-scroll-proportion="-9.333333" vertical-offset="0" max-vertical-offset="765">
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="157" column="24" selection-start="7182" selection-end="7242" vertical-scroll-proportion="-27.461538" vertical-offset="1955" max-vertical-offset="4964">
+              <folding>
+                <element signature="n#style#0;n#p#0;n#div#1;n#div#1;n#section#0;n#div#0;n#div#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -59,7 +80,7 @@
       <file leaf-file-name="contenu.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/contenu.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="142" column="37" selection-start="6141" selection-end="6141" vertical-scroll-proportion="-17.0" vertical-offset="1972" max-vertical-offset="3740">
+            <state line="158" column="56" selection-start="6891" selection-end="6908" vertical-scroll-proportion="-25.346153" vertical-offset="2027" max-vertical-offset="3757">
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#0;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -70,16 +91,16 @@
       <file leaf-file-name="home.less" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/less/home.less">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="0" selection-start="29" selection-end="29" vertical-scroll-proportion="-1.0" vertical-offset="0" max-vertical-offset="187">
+            <state line="2" column="0" selection-start="16" selection-end="16" vertical-scroll-proportion="-0.6666667" vertical-offset="0" max-vertical-offset="153">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="module.less" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="module.less" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/less/module.less">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="172" column="15" selection-start="2838" selection-end="2838" vertical-scroll-proportion="-4.098039" vertical-offset="2715" max-vertical-offset="4097">
+            <state line="308" column="32" selection-start="5088" selection-end="5088" vertical-scroll-proportion="0.8440367" vertical-offset="4500" max-vertical-offset="5525">
               <folding />
             </state>
           </provider>
@@ -129,16 +150,16 @@
         <option value="$PROJECT_DIR$/css/less/variables.less" />
         <option value="$PROJECT_DIR$/css/less/colors.less" />
         <option value="$PROJECT_DIR$/css/less/footer.less" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/js/konamicode.js" />
         <option value="$PROJECT_DIR$/js/main.js" />
         <option value="$PROJECT_DIR$/css/less/content.less" />
         <option value="$PROJECT_DIR$/css/less/header.less" />
         <option value="$PROJECT_DIR$/css/less/responsive.less" />
         <option value="$PROJECT_DIR$/css/less/home.less" />
+        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/contenu.html" />
-        <option value="$PROJECT_DIR$/css/less/module.less" />
         <option value="$PROJECT_DIR$/css/styles.less" />
+        <option value="$PROJECT_DIR$/css/less/module.less" />
       </list>
     </option>
   </component>
@@ -513,7 +534,7 @@
             <element signature="n#alt#0;n#div#0;n#div#0;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#style#0;n#section#0;n#div#0;n#div#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#style#0;n#img#0;n#div#0;n#div#1;n#section#0;n#div#0;n#div#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#p#0;n#div#1;n#div#1;n#section#0;n#div#0;n#div#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#p#0;n#div#1;n#div#1;n#section#0;n#div#0;n#div#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -581,7 +602,7 @@
             <element signature="n#alt#0;n#div#0;n#div#0;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#style#0;n#section#0;n#div#0;n#div#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#style#0;n#img#0;n#div#0;n#div#1;n#section#0;n#div#0;n#div#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#p#0;n#div#1;n#div#1;n#section#0;n#div#0;n#div#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#p#0;n#div#1;n#div#1;n#section#0;n#div#0;n#div#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -649,7 +670,7 @@
             <element signature="n#alt#0;n#div#0;n#div#0;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#style#0;n#section#0;n#div#0;n#div#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#style#0;n#img#0;n#div#0;n#div#1;n#section#0;n#div#0;n#div#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#p#0;n#div#1;n#div#1;n#section#0;n#div#0;n#div#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#p#0;n#div#1;n#div#1;n#section#0;n#div#0;n#div#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -745,18 +766,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="16" selection-start="0" selection-end="13711" vertical-scroll-proportion="-11.769231" vertical-offset="187" max-vertical-offset="5015">
-          <folding>
-            <element signature="n#alt#0;n#div#0;n#div#0;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#section#0;n#div#0;n#div#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#img#0;n#div#0;n#div#1;n#section#0;n#div#0;n#div#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#p#0;n#div#1;n#div#1;n#section#0;n#div#0;n#div#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/less/footer.less">
       <provider selected="true" editor-type-id="text-editor">
         <state line="6" column="18" selection-start="126" selection-end="126" vertical-scroll-proportion="-2.0" vertical-offset="0" max-vertical-offset="255">
@@ -798,13 +807,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/less/colors.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="14" selection-start="14" selection-end="14" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="872">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/less/sprites.less">
       <provider selected="true" editor-type-id="text-editor">
         <state line="60" column="46" selection-start="1442" selection-end="1442" vertical-scroll-proportion="-7.27451" vertical-offset="649" max-vertical-offset="2057">
@@ -821,25 +823,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="157" column="24" selection-start="7182" selection-end="7242" vertical-scroll-proportion="-27.461538" vertical-offset="1955" max-vertical-offset="4964">
+          <folding>
+            <element signature="n#style#0;n#p#0;n#div#1;n#div#1;n#section#0;n#div#0;n#div#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/contenu.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="142" column="37" selection-start="6141" selection-end="6141" vertical-scroll-proportion="-17.0" vertical-offset="1972" max-vertical-offset="3740">
+        <state line="158" column="56" selection-start="6891" selection-end="6908" vertical-scroll-proportion="-25.346153" vertical-offset="2027" max-vertical-offset="3757">
           <folding>
             <element signature="n#style#0;n#div#0;n#div#0;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/less/content.less">
+    <entry file="file://$PROJECT_DIR$/css/less/home.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="22" selection-start="426" selection-end="426" vertical-scroll-proportion="-10.666667" vertical-offset="0" max-vertical-offset="765">
+        <state line="2" column="0" selection-start="16" selection-end="16" vertical-scroll-proportion="-0.6666667" vertical-offset="0" max-vertical-offset="153">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/less/home.less">
+    <entry file="file://$PROJECT_DIR$/css/less/colors.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="0" selection-start="29" selection-end="29" vertical-scroll-proportion="-1.0" vertical-offset="0" max-vertical-offset="187">
+        <state line="0" column="14" selection-start="14" selection-end="14" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="872">
           <folding />
         </state>
       </provider>
@@ -851,16 +862,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/less/module.less">
+    <entry file="file://$PROJECT_DIR$/css/less/content.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="172" column="15" selection-start="2838" selection-end="2838" vertical-scroll-proportion="-4.098039" vertical-offset="2715" max-vertical-offset="4097">
+        <state line="28" column="22" selection-start="365" selection-end="365" vertical-scroll-proportion="-9.333333" vertical-offset="0" max-vertical-offset="765">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/styles.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="15" selection-start="511" selection-end="511" vertical-scroll-proportion="0.35091743" vertical-offset="0" max-vertical-offset="872">
+        <state line="22" column="15" selection-start="559" selection-end="559" vertical-scroll-proportion="-7.3333335" vertical-offset="0" max-vertical-offset="527">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/less/module.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="308" column="32" selection-start="5088" selection-end="5088" vertical-scroll-proportion="0.8440367" vertical-offset="4500" max-vertical-offset="5525">
           <folding />
         </state>
       </provider>

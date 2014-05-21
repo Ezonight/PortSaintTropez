@@ -1,7 +1,7 @@
 #Welcome {
   position: relative;
   text-align: center;
-  padding-bottom:85px;
+  padding-bottom:85px !important;
   h2,p{
     text-align:center;
   }
@@ -39,6 +39,12 @@
         text-decoration: none;
       }
     }
+  }
+}
+
+#Magazine{
+  p{
+    margin-top:30px;
   }
 }
 
@@ -167,26 +173,29 @@
 }
 
 #ImportantLinks{
+  position: relative;
   ul{
     list-style: none;
     padding:0px;
     margin:0px;
     li{
-      margin-top:20px;
+      margin-top:40px;
       &:first-child{
         margin-top:0px;
       }
     }
   }
-
-  a{
+  a:not(.meteoConsultation){
     margin-left:15px;
     width:100%;
     display:block;
-    float:left;
     vertical-align: middle;
     color: #000000;
     text-decoration: none;
+    &:after{
+      content:" ";
+      clear: both;
+    }
     &.booking{
       &:before{
         .ico-gouvernail();
@@ -207,6 +216,7 @@
       margin-bottom: 5px;
     }
     &:before{
+      transition: all 0.2s;
       vertical-align: middle;
       content:" ";
       margin-right:15px;
@@ -227,9 +237,83 @@
       color: @red;
     }
   }
+  .meteoConsultation{
+    position: absolute;
+    bottom:5px;
+    right:5px;
+    color:@gray2;
+    font-size:12px;
+    .muli();
+    &:after{
+      content:" >>";
+    }
+  }
+}
 
-  .meteolink{
-    //margin-top: -20px;
+#Search{
+  position: relative;
+  min-height:60px;
+  .row{
+    position: absolute;
+    top:50%;
+    height:1px;
+    margin-top: -14px;
+    width:100%;
+  }
+  .search{
+    position: relative;
+    input{
+      width:100%;
+      border-radius:14px;
+      padding:4px 20px;
+      border:1px solid @gray1;
+      .muli();
+      .police-size(12);
+      &:focus{
+        outline: none;
+        border:1px solid @blue;
+      }
+    }
+    &:after{
+      content:" ";
+      .ico-loupe();
+      display: block;
+      right:10px;
+      top:4px;
+      position: absolute;
+    }
   }
 
+}
+
+#OtherLinks{
+  ul{
+    list-style: none;
+    padding:0px;
+    margin:0px;
+    li{
+      color:@gray1;
+      a{
+        text-transform: uppercase;
+        .muli(300);
+        color:@gray1;
+        &:before{
+          display: inline-block;
+          content:" ";
+          width:10px;
+          height:10px;
+          border:1px solid @gray1;
+          margin-right:10px;
+        }
+        &:hover{
+          text-decoration: none;
+        }
+        &:hover{
+          &:before{
+            background: @blue;
+          }
+        }
+      }
+    }
+  }
 }
