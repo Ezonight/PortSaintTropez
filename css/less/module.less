@@ -167,123 +167,69 @@
 }
 
 #ImportantLinks{
+  ul{
+    list-style: none;
+    padding:0px;
+    margin:0px;
+    li{
+      margin-top:20px;
+      &:first-child{
+        margin-top:0px;
+      }
+    }
+  }
+
   a{
-    color:#000000;
+    margin-left:15px;
+    width:100%;
+    display:block;
+    float:left;
+    vertical-align: middle;
+    color: #000000;
     text-decoration: none;
+    &.booking{
+      &:before{
+        .ico-gouvernail();
+      }
+    }
+    &.services{
+      &:before{
+        .ico-boussole();
+      }
+    }
+    &.meteo{
+      &:before{
+        .ico-soleil();
+      }
+    }
+    h2{
+      display:inline-block;
+      margin-bottom: 5px;
+    }
+    &:before{
+      vertical-align: middle;
+      content:" ";
+      margin-right:15px;
+      box-sizing: content-box;
+      display:block;
+      float:left;
+      border:1px solid @gray3;
+    }
+    &:hover{
+      &:before{
+        background-color: @red;
+        border-color: @red;
+        color:@red;
+      }
+      p{
+        color:#000000;
+      }
+      color: @red;
+    }
   }
-  h2{
-    display:inline-block;
-    margin-bottom: 5px;
-  }
+
   .meteolink{
     //margin-top: -20px;
   }
-  .booking{
-    a{
-      margin-left:15px;
-      width:100%;
-      display:block;
-      float:left;
-      vertical-align: middle;
-      color: #000000;
-      text-decoration: none;
-      &:before{
-        vertical-align: middle;
-        content:" ";
-        margin-right:15px;
-        box-sizing: content-box;
-        .ico-gouvernail();
-        display:block;
-        float:left;
-        border:1px solid @gray3;
-      }
-      &:after{
-        content:" ";
-        clear:both;
-      }
-      &:hover{
-        &:before{
-          background-color: @red;
-          border-color: @red;
-          color:@red;
-        }
-        p{
-          color:#000000;
-        }
-        color: @red;
-      }
-    }
-  }
-  .services{
-    margin-top:20px;
-    a{
-      margin-left:15px;
-      width:100%;
-      display:block;
-      float:left;
-      vertical-aligh:middle;
-      color: #000000;
-      text-decoration:none;
-      &:before{
-        vertical-align: middle;
-        content:" ";
-        margin-right:15px;
-        box-sizing: content-box;
-        .ico-boussole();
-        display:block;
-        float:left;
-        border:1px solid @gray3;
-      }
-      &:after{
-        content:" ";
-        clear:both;
-      }
-      &:hover{
-        &:before{
-          background-color: @red;
-          border-color: @red;
-        }
-        p{
-          color:#000000;
-        }
-        color:@red;
-      }
-    }
-  }
-  .meteo{
-    margin-top:20px;
-    a{
-      margin-left:15px;
-      width:100%;
-      display:block;
-      float:left;
-      vertical-aligh:middle;
-      color: #000000;
-      text-decoration:none;
-      &:before{
-        vertical-align: middle;
-        content:" ";
-        margin-right:15px;
-        box-sizing: content-box;
-        .ico-soleil();
-        display:block;
-        float:left;
-        border:1px solid @gray3;
-      }
-      &:after{
-        content:" ";
-        clear:both;
-      }
-      &:hover{
-        &:before{
-          background-color: @red;
-          border-color: @red;
-        }
-        p{
-          color:#000000;
-        }
-        color:@red;
-      }
-    }
-  }
+
 }
