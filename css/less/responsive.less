@@ -1,4 +1,16 @@
 // Header
+@media (min-width: 769px) and ( max-width: 992px ){
+  #Navigation{
+    ul{
+      li{
+        a{
+          width:auto !important;
+          padding: 0px 6px;
+        }
+      }
+    }
+  }
+}
 
 @media (max-width: 768px){
   #Header{
@@ -49,5 +61,56 @@
   }
   #SocialNetwork{
     margin:0px !important;
+  }
+}
+
+@media (max-width: 480px){
+  #Background,#Header{
+    height:350px !important;
+    .item{
+      height:350px !important;
+    }
+  }
+  #SocialNetwork{
+    bottom: -10px !important;
+  }
+
+  #Contenu{
+    text-align: justify;
+  }
+
+  #Footer{
+    background:@blue;
+    padding-bottom:170px;
+    padding-top:20px;
+    color:white;
+    .police-size(13);
+    margin-top:15px;
+    .muli();
+    text-align: center;
+    ul{
+      li{
+        margin-bottom:5px;
+        display: block;
+        &:first-child{
+          &:before{
+            content:"";
+          }
+        }
+        &:before{
+          content:"" !important;
+        }
+        a{
+          padding:5px 10px;
+          color:white;
+          border-radius: 3px;
+          transition: all 0.2s;
+          &:hover{
+            background: rgba(255,255,255,0.3);
+            text-decoration: none;
+          }
+        }
+      }
+    }
   }
 }
