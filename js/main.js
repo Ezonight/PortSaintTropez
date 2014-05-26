@@ -93,12 +93,10 @@ function defineHeightSectionHome(){
                 $(this).find('section').each(function(){
                     height1 = $(this).outerHeight();
                     if(height1>=height2)height2=height1;
-                    console.log(height2);
                 });
                 $(this).find('section').css('height',height2);
                 height1=0;
                 height2=0;
-                console.log("--");
             });
         }else{
             $("#Content.home>.row").find('section').css('height','100%');
@@ -114,26 +112,24 @@ var right = "Contact";
 var down = "Galerie";
 var btnB = "Magazine";
 var btnA = "ImportantLinks";
+var myKey;
+var kkeys = [], konami = "38,38,40,40,37,39,37,39,66,65";
 
-if ( window.addEventListener ) {
-    var myKey;
-    var kkeys = [], konami = "38,38,40,40,37,39,37,39,66,65";
-    $(window).click(function(e){
-        currentKey = e.target.id;
-        console.log(currentKey);
-        if(currentKey ==up) myKey = 38;
-        if(currentKey ==left) myKey = 37;
-        if(currentKey ==down) myKey = 40;
-        if(currentKey ==right) myKey = 39;
-        if(currentKey ==btnA) myKey = 65;
-        if(currentKey ==btnB) myKey = 66;
-        console.log(myKey);
-        kkeys.push( myKey );
-        if ( kkeys.toString().indexOf( konami ) >= 0 ) {
-            alert('Konamicode!');
-        }
-    });
-}
+$(window).click(function(e){
+    currentKey = $( e.target ).closest("section").attr('id');
+    if(currentKey ==up) myKey = 38;
+    if(currentKey ==left) myKey = 37;
+    if(currentKey ==down) myKey = 40;
+    if(currentKey ==right) myKey = 39;
+    if(currentKey ==btnA) myKey = 65;
+    if(currentKey ==btnB) myKey = 66;
+    kkeys.push( myKey );
+    if ( kkeys.toString().indexOf( konami ) >= 0 ) {
+        kkeys = [];
+        console.log("Vous venez de réaliser le KonamiCode du port de Saint-Tropez");
+    }
+});
+
 
 
 

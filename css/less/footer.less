@@ -7,4 +7,24 @@
   margin-top:15px;
   .muli();
   text-align: center;
+
+  ul{
+    list-style: none;
+    padding:0px;
+    margin:0px;
+    li{
+      display: inline;
+      &:first-child{
+        &:before{
+          content:"";
+        }
+      }
+      &:before{
+        content:" - ";
+      }
+      a{
+        color:white;
+      }
+    }
+  }
 }
